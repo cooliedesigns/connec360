@@ -1,81 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-.menu {
-  float: left;
-  width: 20%;
-  text-align: center;
-}
-
-.menu a {
-  background-color: #e5e5e5;
-  padding: 8px;
-  margin-top: 7px;
-  display: block;
-  width: 100%;
-  color: black;
-}
-
-.main {
-  float: left;
-  width: 60%;
-  padding: 0 20px;
-}
-
-.right {
-  background-color: #e5e5e5;
-  float: left;
-  width: 20%;
-  padding: 15px;
-  margin-top: 7px;
-  text-align: center;
-}
-
-@media only screen and (max-width: 620px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width: 100%;
+  <style>
+      ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #231F20;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
   }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #0F57A4;
+    font-family: Arial;
+  }
+  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #4C4C4C;
+   color: white;
+   text-align: center;
+   font-family: Arial;
 }
-</style>
+  </style>
 </head>
-<body style="font-family:Verdana;color:#aaaaaa;">
-    <!--Navigation bar-->
-    <ul>
-        <li><a class="active" href="#home">Connec 360</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+<body>
+  <!--Navbar-->
+  <ul>
+    <li><a class="active" href="#home">Connec 360</a></li>
+    <!--<li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>-->
+  </ul>
 
-<div style="background-color:#e5e5e5;padding:15px;text-align:center;">
-  <h1>Hello World</h1>
-</div>
-
-<div style="overflow:auto">
-  <div class="menu">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-    <a href="#">Link 4</a>
+  <!--Footer-->
+  <div class="footer">
+    <p>© 2022 Coolie Designs (Pty)Ltd. All rights reserved.</p>
   </div>
-
-  <div class="main">
-    <h2>Lorum Ipsum</h2>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-  </div>
-
-  <div class="right">
-    <h2>About</h2>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-  </div>
-</div>
-
-<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© copyright w3schools.com</div>
-
 </body>
 </html>
