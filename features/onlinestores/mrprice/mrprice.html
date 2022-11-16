@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--meta for resposive web  page-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Style sheet-->
+  <style>
+    /* Nav bar */
+      ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #17234d;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #027fff;
+    font-family: Arial;
+  }
+  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #fcc018;
+   color: white;
+   text-align: center;
+   font-family: Arial;
+}
+/* CSS */
+.button-34 {
+  background: #027fff;
+  border-radius: 999px;
+  box-shadow: #027fff 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+.logo-image{
+    width: 63.12px;
+    height: 29.25px;
+    overflow: hidden;
+    margin-top: -2px;
+}
+/*iframe*/
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+  </style>
+</head>
+<body>
+  <!--Navbar-->
+  <ul>
+    <li>
+      <a class="active" href="#home">
+        <div class="logo-image">
+          <img src="../../../logo/logowhite.png" alt="Coolie Designs logo" width="100%" height="100%">
+        </div>
+    </a>
+  </li>
+    <!--<li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>-->
+  </ul>
+
+  <!--Body content-->
+    <iframe src="https://www.mrp.com/en_za/" width= 900 height=1600></iframe>
+
+  <!--features-->
+  <div>
+    <!-- HTML !-->
+
+
+  </div><br>
+
+
+  <!--Footer-->
+  <div class="footer">
+    <p>© 2022 Coolie Designs (Pty)Ltd. All rights reserved.</p>
+  </div>
+</body>
+</html>
