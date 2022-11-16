@@ -4,9 +4,6 @@
   <!--meta for resposive web  page-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!--bootstrap-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
   <!--Style sheet-->
   <style>
     /* Nav bar */
@@ -73,12 +70,24 @@
   word-break: break-word;
   border: 0;
 }
+.logo-image{
+    width: 63.12px;
+    height: 29.25px;
+    overflow: hidden;
+    margin-top: -2px;
+}
   </style>
 </head>
 <body>
   <!--Navbar-->
   <ul>
-    <li><a class="active" href="#home">Coolie Designs</a></li>
+    <li>
+      <a class="active" href="#home">
+        <div class="logo-image">
+          <img src="logo/logowhite.png" alt="Coolie Designs logo" width="100%" height="100%">
+        </div>
+    </a>
+  </li>
     <!--<li><a href="#news">News</a></li>
     <li><a href="#contact">Contact</a></li>-->
   </ul>
@@ -91,7 +100,8 @@
   <!--features-->
   <div>
     <!-- HTML !-->
-<button onclick="window.location.href='';" class="button-34" role="button">Explore Schools</button>
+<button onclick="window.location.href='features/priSch.html';" class="button-34" role="button">Explore Schools</button>
+
   </div><br>
 
 
