@@ -1,217 +1,53 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <!--meta for resposive web  page-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+<body>
+<!-- Navigation Bar -->
+    <!-- Just an image -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="images/blacklogo.png" width="7%" height="7%" alt="">
+        </a>
+        </nav>
+        <br>
 
-  <!--Style sheet-->
-  <style>
-    /* Nav bar */
-      ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #17234d;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-  }
 
-  li {
-    float: left;
-  }
-
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-  li a:hover {
-    background-color: #111;
-  }
-
-  .active {
-    background-color: #027fff;
-    font-family: Arial;
-  }
-  .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #fcc018;
-   color: white;
-   text-align: center;
-   font-family: Arial;
-}
-/* CSS */
-.button-34 {
-  background: #027fff;
-  border-radius: 999px;
-  box-shadow: #027fff 0 10px 20px -10px;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  cursor: pointer;
-  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  opacity: 1;
-  outline: 0 solid transparent;
-  padding: 8px 18px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: fit-content;
-  word-break: break-word;
-  border: 0;
-}
-.logo-image{
-    width: 63.12px;
-    height: 29.25px;
-    overflow: hidden;
-    margin-top: -2px;
-}
-
-/*slideshow*/
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-/*.active {
-  background-color: #717171;
-}*/
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
-  </style>
-</head>
-<body style="background-color: #17234d">
-  <!--Navbar-->
-  <ul>
-    <li>
-      <a class="active" href="index.html">
-        <div class="logo-image">
-          <img src="logo/logowhite.png" alt="Coolie Designs logo" width="100%" height="100%">
-        </div>
-    </a>
-  </li>
-    <!--<li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>-->
-  </ul>
-
-  <!--Body content-->
-  <!--header-->
-  <h1 style="font-family:Arial, Helvetica, sans-serif; color:white;">Welcome,</h1>
-  <p style="font-family:Arial, Helvetica, sans-serif; color:white;">This is your home to all your virtual needs :</p>
-
-  <!--features-->
-  <div>
-    <!--<p style="font-family:Arial, Helvetica, sans-serif; color:white;">In futurism and science fiction, the metaverse is a hypothetical iteration of the Internet as a single, universal and immersive virtual world that is facilitated by the use of virtual reality and augmented reality headsets. In colloquial use, a metaverse is a network of 3D virtual worlds focused on social connection. - Wikipedia</p>-->
-  
-    <!-- HTML !-->
-    <button onclick="window.location.href='features/cardealerships/cardealerships.html';" class="button-34" role="button">Explore car dealerships</button>
+<div class="container">
+    <div class="row">
+      <div class="col-md-4 offset-md-4 form-div">
+        <form action="mailto:cooliedesigns@gmail.com" method="post" enctype="text/plain">
+    <h2>Order a design service.
+    </h2>
+    <h6>Fill in the form below and send an email:</h6>
     <br>
-    <br>
-    <button onclick="window.location.href='features/metaverse/metaverses.html';" class="button-34" role="button">Explore the Metaverse</button>
-    <br>
-    <br>
-    <button onclick="window.location.href='features/onlinestores/onlinestores.html';" class="button-34" role="button">Explore online clothing stores</button>
-    <br>
-    <br>
-    <button onclick="window.location.href='features/metaverse/metaverses.html';" class="button-34" role="button">Explore schools</button>
-    <br>
-    <br>
-    <button onclick="window.location.href='features/metaverse/metaverses.html';" class="button-34" role="button">Explore Jobs/Internships</button>
-    <br>
-    <br>
-    <!--<button onclick="window.location.href='features/cardealerships/cardealerships.html';" class="button-34" role="button">Explore Car Dealerships</button>-->
-
-  </div><br>
-  <!--<img src="images/karolina.jpg" alt="shopping cart" width="100%" height="100%">-->
-
-
-  <!--Footer-->
-  <div class="footer">
-    <p>© 2022 Coolie Designs (Pty)Ltd. All rights reserved.</p>
-  </div>
-
-  <script>
-    let slideIndex = 0;
-    showSlides();
-    
-    function showSlides() {
-      let i;
-      let slides = document.getElementsByClassName("mySlides");
-      let dots = document.getElementsByClassName("dot");
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1}    
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";  
-      dots[slideIndex-1].className += " active";
-      setTimeout(showSlides, 3000); // Change image every 2 seconds
-    }
-    </script>
+Choose a service:<br>
+<div class="form-group">
+    <!--<label for="cars">Choose a service :</label>-->
+    <select id="services" name="services" class="form-control form-control-lg">
+        <option value="brandNaming">Brand Naming</option>
+        <option value="logoDesign">Logo design</option>
+        <option value="businessProfile">Business Profile/Portfolio</option>
+        <option value="websiteMockup">Website Mockup</option>
+        <option value="letterhead">Letterhead</option>
+        <option value="businessCard">Business Card</option>
+        <option value="brochure">Brochure</option>
+        <option value="posterDesign">Poster design</option>
+        <option value="emailSignature">Email Signature</option>
+    </select>
+</div>
+Name:<br>
+<input type="text" name="name" class="form-control form-control-lg"><br>
+WhatsApp/Phone number:<br>
+<input type="text" name="phonenumber" class="form-control form-control-lg"><br>
+E-mail:<br>
+<input type="text" name="mail" class="form-control form-control-lg"><br>
+Comment:<br>
+<input type="text" name="comment" size="50" class="form-control form-control-lg"><br><br>
+<input type="submit" value="Send" class="btn btn-primary btn-block btn-lg">
+<input type="reset" value="Reset" class="btn btn-warning btn-block btn-lg">
+</form>
+</div></div></div>
 </body>
 </html>
