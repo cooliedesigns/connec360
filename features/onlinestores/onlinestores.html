@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <!--meta for resposive web  page-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!--Style sheet-->
-  <style>
-    /* Nav bar */
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coolie Designs</title>
+        <link rel="icon" type="image/x-icon" href="../../images/favicon.png">
+        <style>
+           /* Nav bar */
       ul {
     list-style-type: none;
     margin: 0;
@@ -76,68 +76,88 @@
     overflow: hidden;
     margin-top: -2px;
 }
-  </style>
-</head>
-<body style="background-color: #17234d">
-  <!--Navbar-->
-  <ul>
-    <li>
-      <a class="active" href="../../index.html">
-        <div class="logo-image">
-          <img src="../../logo/logowhite.png" alt="Coolie Designs logo" width="100%" height="100%">
-        </div>
-    </a>
-  </li>
-    <!--<li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>-->
-  </ul>
+            div {
+                margin-top: 35px;
+                margin-bottom: 100px;
+                margin-right: 15px;
+                margin-left: 15px;
+            }
+            body {
+                background-image: url('https://giphy.com/gifs/visuals-network-fiber-optics-ZcdJJvDqTgdGZK8Xd3');
+            }
+            p.b {
+                font-family: Helvetica;
+                font-size: 50px;
+            }
+            p.c {
+                font-family: Helvetica;
+                font-size: 100px;
+            }
+        </style>
+    </head>
+<body>
 
-  <!--Body content-->
-  <!--header-->
-  <h1 style="font-family:Arial, Helvetica, sans-serif; color:white;">Online Stores Catalogue,</h1>
-  <p style="font-family:Arial, Helvetica, sans-serif; color:white;">Time to buy your fancy clothes and more, explore the stores below :</p>
-  <p style="font-family:Arial, Helvetica, sans-serif; color:white;"><b>South African Stores :</b></p>
+<!-- Image and text -->
+<nav class="navbar navbar-light bg-dark">
+    <a class="navbar-brand text-light" href="../../index.html">
+      <img src="../../images/favicon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      Coolie Designs
+    </a>
+  </nav>
+        <div>
+            <center>
+                <!--Body content-->
+  <!--header
+  <h1 style="font-family:Arial, Helvetica, sans-serif; color:black;">Car Dealerships' Catalogue,</h1>
+  <p style="font-family:Arial, Helvetica, sans-serif; color:black;">Time to buy your favorite car and more, explore below :</p>
+  -->
+  <p style="font-family:Arial, Helvetica, sans-serif; color:black;"><b>Online Clothing Stores</b></p>
   <!--features-->
   <div>
 
     <!-- Shops !-->
-    <button onclick="window.location.href='https://www.mrp.com/en_za/'" class="button-34" role="button">Mr Price</button>
-    <button onclick="window.location.href='https://www.markham.co.za/home'" class="button-34" role="button">Makharm</button>
-    <button onclick="window.location.href='https://www.thefix.co.za/home'" class="button-34" role="button">The FIX</button>
+    <a href="https://www.mrp.com/en_za/" class="button-34" target="_blank">Mr Price</a>
+    <a href="https://www.markham.co.za/home" class="button-34" target="_blank">Markham</a>
     <br>
     <br>
-    <button onclick="window.location.href='https://www.edgars.co.za/'" class="button-34" role="button">EDGARS</button>
-    <button onclick="window.location.href='https://www.zando.co.za/'" class="button-34" role="button">Zando</button>
-    <button onclick="window.location.href='https://forevernew.co.za/'" class="button-34" role="button">Forever New</button>
+    <a href="https://www.thefix.co.za/home" class="button-34" target="_blank">The FIX</a>
+    <a href="https://www.edgars.co.za/" class="button-34" target="_blank">EDGARS</a>
     <br>
     <br>
-    <button onclick="window.location.href='https://planet54.com/'" class="button-34" role="button">Planet54</button>
-    <button onclick="window.location.href='https://superbalist.com/'" class="button-34" role="button">Superbalist</button>
-    <button onclick="window.location.href='https://cottonon.com/ZA/'" class="button-34" role="button">Cotton On</button>
+    <a href="https://www.zando.co.za/" class="button-34" target="_blank">Zando</a>
+    <a href="https://forevernew.co.za/" class="button-34" target="_blank">Forever New</a>
     <br>
     <br>
-    <button onclick="window.location.href='https://www.hm.com/za/'" class="button-34" role="button">H&M</button>
-    <button onclick="window.location.href='https://www.studio-88.co.za/'" class="button-34" role="button">Studio 88</button>
-    <button onclick="window.location.href='https://www.woolworths.co.za/'" class="button-34" role="button">Woolworths</button>
+    <a href="https://planet54.com/" class="button-34" target="_blank">Planet54</a>
+    <a href="https://superbalist.com/" class="button-34" target="_blank">Superbalist</a>
     <br>
     <br>
-    <button onclick="window.location.href='https://galxboy.co.za/'" class="button-34" role="button">GALXBOY</button>
-    <button onclick="window.location.href='https://za.shein.com/'" class="button-34" role="button">SHEIN</button>
-    <button onclick="window.location.href='https://www.jumia.co.za/'" class="button-34" role="button">Jumia</button>
+    <a href="https://www.hm.com/za/" class="button-34" target="_blank">H&M</a>
+    <a href="https://cottonon.com/ZA/" class="button-34" target="_blank">Cotton On</a>
     <br>
     <br>
-    <button onclick="window.location.href='https://jamclothing.co.za/'" class="button-34" role="button">JAM Clothing</button>
-    <button onclick="window.location.href='https://www.adidas.co.za/'" class="button-34" role="button">Adidas</button>
-    <button onclick="window.location.href='https://www.nike.com/za/'" class="button-34" role="button">NIKE</button>
+    <a href="https://www.studio-88.co.za/" class="button-34" target="_blank">Studio 88</a>
+    <a href="https://www.woolworths.co.za/" class="button-34" target="_blank">Woolworths</a>
     <br>
     <br>
-
-  </div><br>
-
-
-  <!--Footer-->
-  <div class="footer">
-    <p>© 2022 Coolie Designs (Pty)Ltd. All rights reserved.</p>
-  </div>
+    <a href="https://galxboy.co.za/" class="button-34" target="_blank">GALXBOY</a>
+    <a href="https://za.shein.com/" class="button-34" target="_blank">SHEIN</a>
+    <br>
+    <br>
+    <a href="https://galxboy.co.za/" class="button-34" target="_blank">JAM Clothing</a>
+    <a href="https://www.jumia.co.za/" class="button-34" target="_blank">Jumia</a>
+    <br>
+    <br>
+    <a href="https://www.adidas.co.za/" class="button-34" target="_blank">Adidas</a>
+    <a href="https://www.nike.com/za/" class="button-34" target="_blank">NIKE</a>
+    <br>
+    <br>
+    <a href="https://www.adidas.co.za/" class="button-34" target="_blank">Adidas</a>
+    <a href="https://www.nike.com/za/" class="button-34" target="_blank">NIKE</a>
+    <br>
+    <br>
+    <br>
+    <br>
+        </div>
 </body>
 </html>
